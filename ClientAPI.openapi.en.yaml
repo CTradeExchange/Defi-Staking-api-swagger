@@ -9257,7 +9257,7 @@ paths:
             schema:
               type: object
               properties:
-                signature:
+                web3Signature:
                   type: string
                   title: Signature verification
                 address:
@@ -9267,7 +9267,7 @@ paths:
                   type: integer
                   title: Timestamp
               required:
-                - signature
+                - web3Signature
                 - address
                 - timestamp
             example: ''
@@ -38842,5 +38842,5 @@ components:
           minimum: 1
   securitySchemes: {}
 servers:
-  - url: https://preh5-4.cmfbl.com/api/cats-gateway
-    description: PRD 测试公司11
+  - url: https://prepc-utgl.cmfbl.com/api
+    description: PRE-UTGL-Defi-Staking
